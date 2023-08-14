@@ -566,4 +566,57 @@ footer p {
 
 
 
+@media (max-width: 767px) {
+   /* Adjust font sizes for readability */
+   h1 {
+      font-size: 24px;
+   }
+   h2 {
+      font-size: 20px;
+   }
+   p {
+      font-size: 16px;
+   }
+
+   /* Stack columns vertically */
+   .col {
+      width: 100%;
+   }
+
+   /* Adjust padding and margins for better spacing */
+   .row {
+      padding: 20px;
+   }
+
+   /* Hide or style navigation menu for mobile */
+   .main-nav {
+      display: none; /* Hide the navigation menu */
+   }
+
+   /* Style mobile navigation menu (hamburger icon) */
+   .mobile-nav-icon {
+      display: inline-block;
+      margin-right: 10px;
+   }
+
+   /* Make images responsive */
+   img {
+      max-width: 100%;
+      height: auto;
+   }
+
+   /* Center-align text in hero box */
+   .hero-text-box {
+      text-align: center;
+   }
+
+   /* Adjust button styles */
+   .btn {
+      padding: 10px 20px;
+   }
+}
+
+
+
+
 
